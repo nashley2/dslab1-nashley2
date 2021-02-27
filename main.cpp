@@ -30,14 +30,14 @@ int main()
 	ll->insert(100, 0);
 	ll->insert(10, 5);
 	ll->insert(110, 6);
-	display()
+	ll->display();
 	// #6, Add 5 erases
 	ll->erase(3); 
 	ll->erase(5); 
 	ll->erase(4); 
 	ll->erase(2); 
 	ll->erase(1);
-	display()
+	ll->display();
 	delete ll;
 
 	cin.get();
